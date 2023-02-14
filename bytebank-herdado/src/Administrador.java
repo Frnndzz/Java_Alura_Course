@@ -16,7 +16,7 @@ public class Administrador extends Funcionario implements Autenticavel {
 	public boolean autentica(int senha){
 		if(this.senha == senha){
 			return true;
-		} else {
+		} else {{
 			return false;
 		}
 	}
